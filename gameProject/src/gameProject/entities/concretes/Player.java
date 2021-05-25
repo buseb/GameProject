@@ -1,5 +1,7 @@
 package gameProject.entities.concretes;
 
+import java.time.LocalDate;
+
 import gameProject.entities.abstracts.Entity;
 
 public class Player implements Entity {
@@ -8,7 +10,7 @@ public class Player implements Entity {
 	public String lastname;
 	public int dateOfBirth;
 	
-	public Player ( ) {}
+	public Player (int i, String string, String string2, LocalDate localDate, String string3 ) {}
 	
 	public Player(long nationalId, String firstname, String lastname, int dateOfBirth) {
 		super();

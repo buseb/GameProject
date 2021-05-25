@@ -2,6 +2,7 @@ package gameProject.adapters;
 
 import java.rmi.RemoteException;
 
+
 import gameProject.business.abstracts.PlayerCheckService;
 import gameProject.entities.concretes.Player;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;

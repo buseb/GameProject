@@ -6,7 +6,8 @@
  */
 
 package tr.gov.nvi.tckimlik.WS;
-
+import java.util.HashSet;
+import java.util.Iterator;
 public class KPSPublicLocator extends org.apache.axis.client.Service implements tr.gov.nvi.tckimlik.WS.KPSPublic {
 
     public KPSPublicLocator() {
@@ -118,9 +119,7 @@ public class KPSPublicLocator extends org.apache.axis.client.Service implements 
         return ports.iterator();
     }
 
-    /**
-    * Set the endpoint address for the specified port name.
-    */
+  
     public void setEndpointAddress(java.lang.String portName, java.lang.String address) throws javax.xml.rpc.ServiceException {
         
 if ("KPSPublicSoap".equals(portName)) {
